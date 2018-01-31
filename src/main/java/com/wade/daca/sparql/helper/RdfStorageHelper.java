@@ -25,7 +25,7 @@ import java.util.*;
 public class RdfStorageHelper {
 
     private static final Logger log = Logger.getLogger(RdfStorageHelper.class);
-    private static final String serviceURL = "http://localhost:9999/blazegraph";
+    private static final String serviceURL = "https://blazegraph-processor.herokuapp.com";
     private static RemoteRepositoryManager rpm;
     private static Properties defaultNamespaceProperties;
     private static RdfStorageHelper instance;
